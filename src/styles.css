@@ -1,4 +1,60 @@
-.App {
+body {
   font-family: sans-serif;
+  font-weight: 700;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px 15px;
+  outline: none;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  flex-shrink: 0;
+  padding: 5px 15px;
+  transition: 0.3s;
+}
+button:hover {
+  background: #ff7fff;
+  color: #fff;
+}
+
+h2 {
+  color: #666;
+  margin: 0;
   text-align: center;
+}
+
+div {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+}
+
+li {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+* + li {
+  margin-top: 10px;
+}
+
+.input {
+  background: #c1ffff;
+}
+
+.task {
+  background: #c6ffe2;
+  min-height: 200px;
+}
+
+.completed {
+  background: #ffffe0;
+  min-height: 200px;
 }
